@@ -37,7 +37,7 @@ function(myproject_setup_dependencies)
   endif()
 
   if(NOT TARGET tools::tools)
-    cpmaddpackage("gh:lefticus/tools#update_build_system")
+    cpmaddpackage("gh:lefticus/tools#6a6fdf78256eaa38b1ec499fc8c65ff6b374ba51") #/update_build_system branch was deleted its last merge commit
   endif()
 
 endfunction()
